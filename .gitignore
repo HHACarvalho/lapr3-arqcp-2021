@@ -1,0 +1,15 @@
+#Ignore all without extension
+*
+
+#Do not ignore files named Makefile and makefile
+!Makefile*
+!makefile*
+       
+#Do not ignore all with extensions
+!*.*
+
+#Do not ignore all directories
+!*/
+
+#Ignore object files
+*.o
